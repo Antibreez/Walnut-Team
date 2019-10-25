@@ -1,0 +1,39 @@
+.button {
+  width: 290px;
+  min-height: 56px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+
+  background-color: #50b1d7;
+  border: none;
+  border-radius: 10px;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    outline: none;
+
+    color: #000000;
+
+    background-color: #ffe640;
+
+  }
+}
+
+@media (min-width: @tablet-width) {
+  .button {
+    width: 330px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .button {
+    width: 410px;
+    height: 70px;
+
+    font-size: 18px;
+  }
+}
